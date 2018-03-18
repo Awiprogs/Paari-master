@@ -90,10 +90,6 @@ namespace Paari.Controllers
             {
                 return NotFound(exc.Message);
             }
-            //catch (Exception exc)
-            //{
-            //    return BadRequest(exc.Message);
-            //}
 
             return Ok();
         }
